@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hello Kovi", "Hi There"],
+      "responses": [
+        "Hello. How may I help you ?",
+        "Hello. Here to help you with covid related queries"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "bye Bye", "Cya", "Thank you"],
+      "responses": [
+        "It was my pleasure to help you",
+        "Kovi always here to help"
+      ]
+    },
+    {
+      "tag": "basic_info",
+      "patterns": [
+        "What is Covid-19?",
+        "Tell me about Covid-19",
+        "Information about Covid-19",
+        "Details about Covid-19"
+      ],
+      "responses": [
+        "On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as coronavirus. In coronavirus, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as 2019 novel coronavirus"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "Symptoms of Covid-19",
+        "Whar are the Symptoms of Covid-19",
+        "What Symptoms will I show if I have Covid-19?",
+        "What happens if I get Covid-19?"
+      ],
+      "responses": [
+        "Symptoms may appear 2-14 days after exposure to the virus. Some of the most common symptoms are: Fever or chills,Cough,Shortness of breath ,Fatigue ,Muscle or body aches,Headache,New loss of taste or smell,Sore throat,Congestion or runny nose,Nausea or vomiting"
+      ]
+    },
+    {
+      "tag": "vaccine_info",
+      "patterns": [
+        "What is the Covid-19 Vaccine?",
+        "Show me information about the Covid-19 Vaccine",
+        "Details about the Covid-19 Vaccine",
+        "Is it Important to take Vaccine",
+        "Is Covid-19 Vaccine useful?"
+      ],
+      "responses": [
+        "Is it highly advisable to get vaccinated as soon as possible from your nearest authorized vaccine center or hospital. coronavirus Vaccines are Safe, Effective and provides a safer way to help build protection. Studies show that coronavirus vaccines are effective at keeping you from getting coronavirus. Getting a coronavirus vaccine will also help keep you from getting seriously ill even if you do get coronavirus. Once you get vaccinated, you can start doing more by resuming many activities that you did before the pandemic."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Can Covid-19 spread from delivery packages?",
+        "Is it safe to order from Amazon during the pandemic?",
+        "Is it safe to accept package delivery during Covid-19"
+      ],
+      "responses": [
+        "Although the virus can survive for a short period on some surfaces, it is unlikely to be spread from domestic or international mail, products or packaging. However, it may be possible that people can get coronavirus by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes. Thoroughly Sanitize packages before bringing them into the household."
+      ]
+    },
+    {
+      "tag": "news_and_statistics",
+      "patterns": [
+        "Latest News on",
+        "Show me the news on",
+        "Show me the latest news on",
+        "Show me recent updates on",
+        "Total cases of Covid-19",
+        "Show me the count of total deaths",
+        "Show me latest news and statistics",
+        "Covid-19 statistics of India"
+      ],
+      "responses": ["Here are your results..."]
+    }
+  ]
+}
